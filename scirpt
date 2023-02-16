@@ -1,0 +1,4 @@
+docker-compose up -d
+docker exec call-webhook-tailscale_tailscale_1 tailscale up --accept-routes --authkey tskey-auth-kFzmYG2CNTRL-sQteZJLJhU7q5nUcPj8QW7yaxfNuypGqQ 
+docker exec call-webhook-tailscale_ubuntu-container_1 curl -X POST --insecure https://srv-vi:9443/api/webhooks/9b7da886-1484-4c14-ae56-a0768700e29f
+docker-compose down
