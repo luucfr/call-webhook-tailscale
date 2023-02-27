@@ -12,7 +12,7 @@ services:
           - sys_module
         command: tailscaled
 
-    ubuntu-container:
+    curl:
         image: curlimages/curl
         network_mode: service:tailscale
         command: sleep infinity
