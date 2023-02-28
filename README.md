@@ -1,6 +1,6 @@
 # call-webhook-tailscale
 
-#### Remplacer le fichier script.sh avec vos identifiants
+#### Remplacer le fichier script avec vos identifiants
 #### Exemple:
 ```
 docker-compose up -d
